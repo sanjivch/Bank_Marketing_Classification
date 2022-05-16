@@ -13,7 +13,7 @@ from xgboost import XGBClassifier
 import pickle
 
 #Read the dataset
-df = pd.read_csv('/home/elite/Documents/DataScience/Projects/Misc - Machine Learning/Models/bank-additional/bank-additional-full.csv',sep=';')
+df = pd.read_csv('data/bank-additional-full.csv',sep=';')
 
 
 #Convert categorical values to numeric for each categorical feature
